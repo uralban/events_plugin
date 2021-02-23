@@ -1,0 +1,64 @@
+.events-admin-wrap h1.events-admin-header{
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 23px;
+    font-weight: 400;
+    padding: 9px 0 4px 0;
+    line-height: 1.3;
+}
+
+/*.events-admin-wrap a.admin-page-title-action {
+    margin-left: 0px;
+    padding: 4px 8px;
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    border: 1px solid #0071a1;
+    border-radius: 2px;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #0071a1;
+    background: #f3f5f6;
+    cursor: pointer;
+}*/
+
+.events-admin-wrap .events-container .events-col-left {
+    width: 35%;
+    float: left;
+}
+.events-admin-wrap .events-container .events-col-right {
+    width: 65%;
+    float: right;
+}
+
+.events-col-left-wraper {
+    padding-right: 10px;
+}
+
+.events-col-right-wraper {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.events-admin-wrap .events-container h2{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.events-admin-wrap .events-container .events-col-left form#events-add-new-form input {
+    width: 100%;
+}
+.events-admin-wrap .events-container .events-col-left form#events-add-new-form input[type="submit"] {
+    width: auto;
+    margin-top: 10px;
+}
+.events-admin-wrap .events-col-right-wraper table td {
+    width: 40%;
+}
+.events-admin-wrap .events-col-right-wraper table.events_table thead {
+    font-weight: bold;
+}

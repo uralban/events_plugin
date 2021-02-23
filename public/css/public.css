@@ -1,0 +1,11 @@
+table.events_table {
+    border-width: 1px;
+}
+
+table.events_table thead{
+    font-weight: bold;
+}
+
+table.events_table td{
+    padding: 10px 20px;
+}
